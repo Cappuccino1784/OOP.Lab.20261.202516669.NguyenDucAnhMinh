@@ -1,3 +1,5 @@
+Questions from Exercise 6.1
+
 1. What happens if users choose "Cancel"?
 - In Java Swing, choosing Cancel is not the same as choosing Yes or No.
 - The dialog returns a special value: JOptionPane.CANCEL_OPTION.
@@ -36,7 +38,3 @@
   } else if (choice == 1) {
       // user clicked "I don't"
   }
-
-- If you want only Yes/No without Cancel, the simpler option is still showConfirmDialog with YES_NO_OPTION. For fully custom labels, use showOptionDialog.
-
-Reference: Java Swing JOptionPane documentation or IDE help (Eclipse/NetBeans) can show the exact method signatures and parameters.
